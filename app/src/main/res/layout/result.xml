@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@color/popup_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_lose"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/advent_pro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/better_luck_next_time"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/advent_pro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/computer"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/advent_pro"/>
+
+    <ImageView
+        android:id="@+id/comp_res"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp" />
+    
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/user_res"
+        android:layout_width="35dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/img1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/advent_pro"/>
+
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/play_again" />
+
+
+
+
+
+</LinearLayout>
